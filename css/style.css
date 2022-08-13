@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%; 
+    box-sizing: border-box;
+}
+
+/* Mobile first (width-max:640px)*/
+
+/* Ajustes generales */
+/* --Header-- */
+
+header{
+    width: 100vh;
+    height: 100%;
+    background-color: rgb(103, 198, 195);
+    padding: 2rem 0 2rem 0;
+}
+
+header div{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+header div img{
+    width: 50%;
+    margin: 0 0 5% 0;
+}
+
+
+header nav{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-family: 'Mulish', sans-serif;
+}
+
+footer{
+    margin: 30% 0 0 0;
+    width: 100%;
+    height: 85vh;
+    background-color: rgb(103, 198, 195) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer p{
+    padding: 10% 0 5% 0;
+    font-family: 'Mulish', sans-serif;
+    font-size: x-large;
+}
+
+footer a{
+    padding: 5% 0 5% 0;
+}
+
+/* Index */
+/* --Main-- */
+
+.gridIndex{
+    width: 100%;
+    display: grid;
+}
+
+.gridIndex{
+    width: 100vh;
+}
+
+.boxIndexEncabezado{
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.indexEncabezadoImg{
+    width: 80%;
+}
+
+.gridIndex h2{
+    font-family: 'Mulish', sans-serif;
+    font-size: x-large;
+}
+
+.seccionPrincipalIndex{
+    width: 100vh;
+}
+
+
+
+
+
+
+@media screen and (min-width: 640px) and (max-width:1280px){
+
+
+
+}
+
+@media screen and (min-width: 1280px){
+
+
+
+}

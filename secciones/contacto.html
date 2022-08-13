@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Clínica Sydeney</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="../images/Clinica Sydney Inignia.svg" alt="Insigna" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./especialidades.html">Especialidades</a></li>
+          <li><a href="./profesionales.html">Profesionales</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./nuestraclinica.html">Nuestra Clínica</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Contáctanos</h1>
+      <div>
+        <img src="../images/modelo5.png"alt="Modelo contacto" />
+      </div>
+      <article class="contacto__formulario">
+          <form action="#">
+            <label for="text" >Nombre:
+              <input type="text" placeholder="Ingresa tu nombre" />
+            </label>
+            <br /><br />
+            <label for="text" >Apellidos:
+              <input type="text" placeholder="Ingresa tus apellidos" />
+            <br /><br />
+            </label>
+            <label for="email">Dirección de email:
+              <br />
+              <input type="email" placeholder="ej: clinicasydney@gmail.com" name="email"
+              /><br /><br />
+            </label>
+            <label for="number" >Edad:
+              <input type="number" placeholder="Selecciona tu edad." />
+              <br />
+            </label>
+            <br /><br />
+            <div>
+              <p>Selecciona especialidad</p>
+              <select name="especialidad" id="especialidad">
+                <option value="blanqueamiento">Blanqueamiento</option>
+                <option value="endodoncia">Endodoncia</option>
+                <option value="implantologia">Implantología</option>
+                <option value="Odontologiageneral">Odontología general</option>
+                <option value="ortodoncia">Ortodoncia</option>
+                <option value="periodoncia">Periodoncia</option>
+                <option value="rehabilitacionoral">Rehabilitacion oral</option>
+              </select>
+            </div>
+            <div>
+              <br />
+              <p>Que necesitas?:</p>
+            <div>
+                Diagnóstico
+                <input type="radio" name="tiposervicio" value="diagnostico" />
+            </div>
+            <div>
+                Tratamiento
+                <input type="radio" name="tiposervicio" value="tratamiento" />
+            </div>
+            <div>
+                Chequeo
+                <input type="radio" name="tiposervicio" value="chequeo" />
+            </div>
+            <br />
+            </div>
+            <label for="Observaciones">
+              Cuentanos mas sobre lo que necesitas...:<br /><br />
+              <textarea placeholder=""></textarea>
+            </label>
+            <br />
+            <div>
+            <br />
+              Quieres recibir información relevante para tu salud dental?
+            <input type="checkbox" name="acepta" value="1" />
+            </div>
+            <br />
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Cancelar" />
+          </form>
+        </article>
+      <div>
+        <img src="../images/Clinica Sydney Inignia.svg" alt="Insignia clinica sydney" />
+      </div>
+    </main>
+    <footer>
+      <p>Siguenos en nuestras redes sociales</p>
+      <div>
+        <a title="Clínica Sydney FB" href="https://www.facebook.com/clinica.odontologica.sydney">
+          <img src="../images/fb icon.svg" alt="iconofacebook" />
+        </a>
+      </div>
+      <div>
+        <img src="../images/barraseparadorarrss.svg" alt="Barra espaciadora RRSS" />
+      </div>
+      <div>
+        <a title="Clínica Sydney IG" href="https://www.instagram.com/clinica.odontologica.sydney/?hl=es">
+          <img src="../images/ig icon.svg" alt="icono instagram" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
